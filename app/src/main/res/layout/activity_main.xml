@@ -1,15 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="202dp"
-        android:layout_height="201dp"
-        android:layout_weight="1"
+        android:id="@+id/pipe"
+        android:layout_width="112dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/sonic_pipe_bomb" />
-</LinearLayout>
+
+    <ImageView
+        android:id="@+id/bonk"
+        android:layout_width="107dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boink" />
+
+    <ImageView
+        android:id="@+id/yacut"
+        android:layout_width="114dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/g" />
+
+    <ImageView
+        android:id="@+id/giant"
+        android:layout_width="112dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="210dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/green" />
+
+    <ImageView
+        android:id="@+id/titan"
+        android:layout_width="108dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="210dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pmusic" />
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gay" />
+
+    <ImageView
+        android:id="@+id/missisipi"
+        android:layout_width="112dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="350dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/queen" />
+
+    <ImageView
+        android:id="@+id/house"
+        android:layout_width="107dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="350dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/squidward" />
+
+    <ImageView
+        android:id="@+id/taco"
+        android:layout_width="115dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tacobell" />
+</androidx.constraintlayout.widget.ConstraintLayout>
